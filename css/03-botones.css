@@ -1,0 +1,7 @@
+/* Botones */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:13px 24px;border-radius:999px;font:700 .98rem/1 var(--font-body);text-decoration:none;border:2px solid var(--berry);cursor:pointer;transition:transform .15s ease,background-color .15s ease}
+.btn-primary{background:var(--berry);color:var(--on-berry)}
+.btn-ghost{background:transparent;color:var(--ink)}
+.btn-small{padding:10px 18px;font-size:.9rem}
+.btn:hover{transform:translateY(-2px)}
+.btn svg{width:20px;height:20px;flex:none}

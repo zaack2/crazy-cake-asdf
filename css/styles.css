@@ -1,0 +1,23 @@
+/* Crazy Cake · estilos
+   Este archivo solo junta los demás, en este orden (el orden importa).
+   Los colores y las tipografías se cambian en css/01-variables.css.
+
+   01-variables  colores y tipografías      07-nosotros
+   02-base       reinicio y piezas comunes  08-productos
+   03-botones                               09-video
+   04-encabezado                            10-contacto
+   05-banner                                11-pie
+   06-inicio                                12-movimiento (animaciones reducidas)
+*/
+@import url("01-variables.css");
+@import url("02-base.css");
+@import url("03-botones.css");
+@import url("04-encabezado.css");
+@import url("05-banner.css");
+@import url("06-inicio.css");
+@import url("07-nosotros.css");
+@import url("08-productos.css");
+@import url("09-video.css");
+@import url("10-contacto.css");
+@import url("11-pie.css");
+@import url("12-movimiento.css");

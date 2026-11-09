@@ -1,0 +1,20 @@
+/* Contacto: mapa, datos y formulario */
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:start}
+.contact>*{min-width:0}
+.place{display:grid;gap:20px}
+.map{display:block;width:100%;height:auto;aspect-ratio:5/3;border-radius:24px;border:1px solid var(--line)}
+.info{display:grid;grid-template-columns:auto 1fr;gap:12px 20px;margin:0}
+.info dt{font:700 .74rem/1.6 var(--font-body);letter-spacing:.12em;text-transform:uppercase;color:var(--berry-text)}
+.info dd{margin:0}
+.formcard{padding:30px;border-radius:24px;background:var(--surface);border:1px solid var(--line);display:grid;gap:18px}
+.formcard h3{font-size:1.5rem}
+form{display:grid;gap:16px}
+.field{display:grid;gap:6px}
+label{font-weight:700;font-size:.9rem}
+input,select,textarea{width:100%;font:inherit;color:var(--ink);background:var(--bg);border:1.5px solid var(--line);border-radius:14px;padding:12px 14px}
+textarea{min-height:104px;resize:vertical}
+input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--berry);outline-offset:1px}
+.result{display:grid;gap:16px}
+.preview{margin:0;font-family:inherit;white-space:pre-wrap;padding:16px;border-radius:14px;background:var(--surface-2);font-size:.95rem;overflow-wrap:anywhere}
+.result-actions{display:flex;flex-wrap:wrap;gap:12px}
+@media (max-width:860px){.contact{grid-template-columns:1fr}}

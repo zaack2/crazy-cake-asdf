@@ -1,0 +1,13 @@
+/* Encabezado y menú de navegación */
+.site{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:var(--bg);border-bottom:1px solid var(--line)}
+.site .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 20px;padding-block:10px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;font:600 1.4rem/1 var(--font-display)}
+.brand-seal{width:44px;height:44px;border-radius:50%;background:var(--logo) center/cover no-repeat;border:2px solid var(--ring);box-shadow:0 0 0 1px var(--line)}
+.nav{display:flex;gap:4px;overflow-x:auto;max-width:100%;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nav a{padding:8px 14px;border-radius:999px;text-decoration:none;font-weight:500;font-size:.95rem;white-space:nowrap}
+.nav a:hover{background:var(--surface-2)}
+.nav a[aria-current="page"]{background:var(--berry);color:var(--on-berry);font-weight:700}
+.site .btn{display:none}
+@media (min-width:980px){.site .btn{display:inline-flex}}
+@media (max-width:719px){.nav{order:3;width:100%}}
