@@ -1,0 +1,6 @@
+/* Movimiento reducido: quita animaciones si el usuario lo pide */
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .btn,.card,.video-card{transition:none}
+  .btn:hover,.card:hover,.video-card:hover{transform:none}
+}

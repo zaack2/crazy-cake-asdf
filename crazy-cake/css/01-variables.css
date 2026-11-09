@@ -1,0 +1,58 @@
+/* Variables: colores, tipografías y tema oscuro.
+   Cambia aquí los colores y las fuentes de todo el sitio. */
+:root{
+  --font-display:"Fredoka","Trebuchet MS",system-ui,sans-serif;
+  --font-body:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+
+  --bg:#fff7f9;
+  --surface:#ffffff;
+  --surface-2:#ffeaf2;
+  --ink:#3b2038;
+  --muted:#76607a;
+  --line:#f0d2df;
+  --berry:#d62f78;
+  --berry-text:#b8225f;
+  --on-berry:#ffffff;
+  --lilac:#a56bd0;
+  --peach:#ffc98a;
+
+  --hero-a:#ffd3e3;
+  --hero-b:#ffe4c8;
+  --hero-c:#e9d8fb;
+  --dot:rgba(255,255,255,.6);
+  --ring:#ffffff;
+  --shadow:0 22px 44px -20px rgba(120,40,90,.45);
+
+  --tile-pink:#ffd6e5;
+  --tile-peach:#ffe3c2;
+  --tile-lilac:#e8d6fb;
+  --tile-sun:#fff0b8;
+
+  --map-bg:#f6e8f5;
+  --map-block:#ffffff;
+  --map-park:#d6efd0;
+  --map-road:#ffd9a8;
+
+  --logo:url("../img/logo.jpg");
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#1d1220; --surface:#2a1a2e; --surface-2:#341f39; --ink:#fdeef5; --muted:#cfb0c7; --line:#4b3051;
+    --berry:#ff6aa5; --berry-text:#ff8ab8; --on-berry:#2a0f22; --lilac:#c79bf0; --peach:#f2b36d;
+    --hero-a:#4a1f3d; --hero-b:#4a3029; --hero-c:#33244f; --dot:rgba(255,255,255,.07);
+    --ring:#2a1a2e; --shadow:0 22px 44px -20px rgba(0,0,0,.75);
+    --tile-pink:#f5bfd4; --tile-peach:#f7d2aa; --tile-lilac:#d8c2f2; --tile-sun:#f3e29c;
+    --map-bg:#3a2540; --map-block:#4a3151; --map-park:#3e5a46; --map-road:#7a5a62;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#1d1220; --surface:#2a1a2e; --surface-2:#341f39; --ink:#fdeef5; --muted:#cfb0c7; --line:#4b3051;
+  --berry:#ff6aa5; --berry-text:#ff8ab8; --on-berry:#2a0f22; --lilac:#c79bf0; --peach:#f2b36d;
+  --hero-a:#4a1f3d; --hero-b:#4a3029; --hero-c:#33244f; --dot:rgba(255,255,255,.07);
+  --ring:#2a1a2e; --shadow:0 22px 44px -20px rgba(0,0,0,.75);
+  --tile-pink:#f5bfd4; --tile-peach:#f7d2aa; --tile-lilac:#d8c2f2; --tile-sun:#f3e29c;
+  --map-bg:#3a2540; --map-block:#4a3151; --map-park:#3e5a46; --map-road:#7a5a62;
+  color-scheme:dark;
+}
