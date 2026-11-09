@@ -1,0 +1,4 @@
+/* Pie de página */
+.foot{border-top:1px solid var(--line);padding-block:28px}
+.foot .wrap{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between}
+.foot p{color:var(--muted);font-size:.92rem}
